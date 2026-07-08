@@ -53,7 +53,6 @@ This website is designed as a clean personal portfolio to present my academic ba
 | 📚 Publications | Selected publications and research output | [Publications](https://love-ovo.github.io/#publications) |
 | 📬 Contact | Email, LinkedIn, GitHub, and ORCID | [Contact](https://love-ovo.github.io/#contact) |
 
---
 
 ## 🧭 Maritime Research Map
 
