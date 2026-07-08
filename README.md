@@ -4,7 +4,6 @@
 
 ### Maritime Studies · Shipping Data Analytics · Port & Supply Chain
 
-
 <p>
   <a href="https://love-ovo.github.io/">
     <img src="https://img.shields.io/badge/Website-love--ovo.github.io-0E7490?style=for-the-badge&logo=githubpages&logoColor=white" />
@@ -21,37 +20,40 @@
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=720&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains" />
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=760&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains;Connecting+maritime+knowledge+with+operational+insight" />
 </p>
 
 </div>
 
 ---
 
-## 🌊 About This Website
+## 🌊 About This Portfolio
 
 This repository hosts my personal academic and professional homepage:
 
 ### 🔗 [Visit my website → love-ovo.github.io](https://love-ovo.github.io/)
 
-Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyang Technological University**.  
-My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**.
+Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyang Technological University**.
 
-This website is designed as a clean personal portfolio to present my academic background, research interests, publications, technical skills, and professional profile.
+My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**. This portfolio presents my academic background, research interests, selected publications, technical skills, and professional direction.
+
+> **Maritime knowledge + data analytics + operational insight**
+
 ---
 
-## 🛰️ Navigation System
+## 🛰️ Portfolio Mission Control
 
 | Destination | Description | Link |
 |---|---|---|
-| 🌐 Personal Website | Full academic and professional portfolio | [Open Website](https://love-ovo.github.io/) |
-| 📄 CV & Documents | CV and supporting documents page | [Open CV Page](https://love-ovo.github.io/cv&ps.html) |
-| 🚢 Maritime Projects | Research and project highlights | [Projects Section](https://love-ovo.github.io/#projects) |
-| 📚 Publications | Selected publications and research output | [Publications](https://love-ovo.github.io/#publications) |
-| 📬 Contact | Email, LinkedIn, GitHub, and ORCID | [Contact](https://love-ovo.github.io/#contact) |
+| 🌐 **Personal Website** | Full academic and professional portfolio | [Open Website](https://love-ovo.github.io/) |
+| 📄 **CV & Documents** | CV and supporting documents page | [Open CV Page](https://love-ovo.github.io/cv%26ps.html) |
+| 🚢 **Projects & Research** | Maritime, logistics, and data-related research highlights | [View Projects](https://love-ovo.github.io/#projects) |
+| 📚 **Publications** | Selected academic publications and research outputs | [View Publications](https://love-ovo.github.io/#publications) |
+| 📬 **Contact** | Email, LinkedIn, GitHub, and ORCID | [Contact Me](https://love-ovo.github.io/#contact) |
 
+---
 
-## 🧭 Maritime Research Map
+## 🧭 Research Atlas
 
 <table>
   <tr>
@@ -64,7 +66,7 @@ This website is designed as a clean personal portfolio to present my academic ba
     <td width="50%">
       <h3>📊 Shipping Data Analytics</h3>
       <p>
-        Applying Python, MATLAB, SPSS, GIS, and forecasting methods to transform maritime and logistics data into useful insights.
+        Applying Python, MATLAB, SPSS, GIS, and forecasting methods to transform maritime and logistics data into clearer insights.
       </p>
     </td>
   </tr>
@@ -88,19 +90,17 @@ This website is designed as a clean personal portfolio to present my academic ba
 
 ## 📊 Data-to-Decision Workflow
 
-| Stage | What It Means |
-|---|---|
-| **01 · Maritime Context** | Identify operational questions from shipping, ports, logistics, or safety scenarios |
-| **02 · Data Collection** | Gather maritime, port, logistics, or transportation-related data |
-| **03 · Processing & Analysis** | Clean, structure, and analyze data using tools such as Python, MATLAB, SPSS, and GIS |
-| **04 · Modeling & Forecasting** | Apply forecasting, optimization, or statistical methods to support interpretation |
-| **05 · Operational Insight** | Translate analysis into clearer recommendations for port, shipping, and supply chain decisions |
+| Stage | Focus | Output |
+|---|---|---|
+| **01 · Maritime Context** | Shipping, ports, logistics, safety, and operational problems | Clear research or operational question |
+| **02 · Data Collection** | Maritime, port, logistics, or transportation-related data | Structured data source |
+| **03 · Processing & Analysis** | Python, MATLAB, SPSS, GIS, Excel, and statistical methods | Cleaned and interpretable dataset |
+| **04 · Modeling & Forecasting** | Forecasting, optimization, and quantitative models | Analytical results |
+| **05 · Operational Insight** | Translating analysis into recommendations | Port, shipping, or supply chain decisions |
 
 ---
 
-## ⚓ Portfolio Identity
-
-> **Maritime knowledge + data analytics + operational insight**
+## 🧩 Core Focus
 
 <p>
   <img src="https://img.shields.io/badge/Maritime%20Studies-0B2545?style=flat-square" />
@@ -108,21 +108,21 @@ This website is designed as a clean personal portfolio to present my academic ba
   <img src="https://img.shields.io/badge/Port%20Operations-0369A1?style=flat-square" />
   <img src="https://img.shields.io/badge/Supply%20Chain%20Research-155E75?style=flat-square" />
   <img src="https://img.shields.io/badge/Maritime%20Safety-164E63?style=flat-square" />
+  <img src="https://img.shields.io/badge/Freight%20Forwarding-0F766E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Transportation-075985?style=flat-square" />
 </p>
-
-## 🧩 Focus Areas
 
 <table>
   <tr>
-    <td><strong>🚢 Maritime & Shipping</strong></td>
+    <td><strong>🚢 Domain Knowledge</strong></td>
     <td>Maritime Studies · Shipping Operations · Freight Forwarding · Maritime Safety</td>
   </tr>
   <tr>
-    <td><strong>📊 Data & Analytics</strong></td>
+    <td><strong>📊 Analytical Tools</strong></td>
     <td>Python · MATLAB · SPSS · GIS · Forecasting · Data Visualization</td>
   </tr>
   <tr>
-    <td><strong>🏗️ Port & Supply Chain</strong></td>
+    <td><strong>🏗️ Research Direction</strong></td>
     <td>Port Operations · Cargo Throughput Forecasting · Logistics · Supply Chain Research</td>
   </tr>
   <tr>
@@ -133,28 +133,14 @@ This website is designed as a clean personal portfolio to present my academic ba
 
 ---
 
-## 🚀 Website Highlights
-
-| Section | Purpose |
-|---|---|
-| **About Me** | Introduces my academic background and research direction |
-| **Focus Areas** | Summarizes my maritime, logistics, and data-related interests |
-| **Projects & Research** | Presents research and applied project experience |
-| **Publications** | Lists selected academic publications |
-| **Toolkit** | Shows analytical and professional skills |
-| **CV & Documents** | Provides access to CV and supporting documents |
-
----
-
 ## 📚 Selected Publications
 
-- **Wang, Y.** Prediction of Shenzhen Port cargo throughput based on the nonlinear optimized GM-Markov model. *China Water Transport*, 25(3), 15–17.
-
-- **Wang, Y.** Research on inland river crew team building under the new development pattern: Analysis based on Porter's five forces model. *Pearl River Water Transport*, 2024(10), 101–103.
-
-- **Wang, Y.** Improved GM-Markov model based on CPSO algorithm for port cargo throughput forecasting. *Journal of Chongqing Jiaotong University (Natural Sciences)*.
-
-- **Wang, Y.** Large-Scale Sampling Model and Optimization Algorithm Based on Dynamic Programming and Monte Carlo Simulation. *The 5th International Conference on Multi-modal Information Analytics*.
+| Type | Publication |
+|---|---|
+| **Journal** | **Wang, Y.** Prediction of Shenzhen Port cargo throughput based on the nonlinear optimized GM-Markov model. *China Water Transport*, 25(3), 15–17. |
+| **Journal** | **Wang, Y.** Research on inland river crew team building under the new development pattern: Analysis based on Porter's five forces model. *Pearl River Water Transport*, 2024(10), 101–103. |
+| **Forecasting** | **Wang, Y.** Improved GM-Markov model based on CPSO algorithm for port cargo throughput forecasting. *Journal of Chongqing Jiaotong University (Natural Sciences)*. |
+| **Conference** | **Wang, Y.** Large-Scale Sampling Model and Optimization Algorithm Based on Dynamic Programming and Monte Carlo Simulation. *The 5th International Conference on Multi-modal Information Analytics*. |
 
 ---
 
@@ -167,9 +153,20 @@ This website is designed as a clean personal portfolio to present my academic ba
   <img src="https://img.shields.io/badge/GitHub%20Pages-Deployment-222222?style=flat-square&logo=githubpages&logoColor=white" />
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MATLAB-Modeling-0076A8?style=flat-square" />
+  <img src="https://img.shields.io/badge/SPSS-Statistics-1F70C1?style=flat-square" />
+  <img src="https://img.shields.io/badge/GIS-Spatial%20Analysis-2E7D32?style=flat-square" />
+  <img src="https://img.shields.io/badge/Excel-Data%20Processing-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+</p>
+
 ---
 
-## 📁 Repository Structure
+## 🧱 Website Architecture
+
+<details>
+<summary><strong>Click to view repository structure</strong></summary>
 
 ```text
 love-ovo.github.io/
@@ -181,21 +178,23 @@ love-ovo.github.io/
 └── images/             # Profile and project images
 ```
 
+</details>
+
 ---
 
-## 🧭 Design Direction
+## 🎨 Design Direction
 
-The visual identity of this website is inspired by:
+The visual identity of this website is shaped around:
 
 - **Maritime blue tones**
 - **Clean academic layout**
-- **Minimal portfolio structure**
 - **Data-driven professional presentation**
 - **Readable sections with strong spacing**
+- **A balance between research profile and operational portfolio**
 
-The goal is not only to show information, but also to communicate a clear professional direction:
+The goal is to communicate a clear professional direction:
 
-> **Maritime knowledge + data analytics + operational insight**
+> **Turning maritime complexity into clearer, data-informed decisions.**
 
 ---
 
@@ -220,6 +219,6 @@ The goal is not only to show information, but also to communicate a clear profes
 
 <div align="center">
 
-### ⚓ Turning maritime complexity into clearer, data-informed decisions.
+### ⚓ Maritime knowledge · Data analytics · Operational insight
 
 </div>
