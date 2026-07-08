@@ -1375,149 +1375,152 @@ h3 {
 }
 /* =========================================================
    Yuliang Wang Custom Style Overrides
-   Maritime · Data · Operations
+   Cleaner academic-maritime layout
    ========================================================= */
 
 :root,
 [data-theme="light"] {
-    --bg-base: #F4F8FA;
+    --bg-base: #F5F8FA;
     --bg-surface: #FFFFFF;
     --bg-sidebar: #EAF3F6;
-    --bg-callout: #E6F0F3;
+    --bg-callout: #EEF7F9;
     --text-primary: #0F172A;
     --text-body: #334155;
     --text-secondary: #475569;
-    --text-heading: #0B2545;
+    --text-heading: #102A43;
     --link: #0E7490;
     --link-hover: #0369A1;
     --accent: #0E7490;
     --accent-border: #0E7490;
-    --border: #D6E4E8;
+    --border: #D8E6EA;
 }
 
-/* Temporarily remove copied background image dependency */
+/* Remove copied background image dependency */
 body::before {
     background-image: none !important;
 }
 
-/* Overall tone */
+/* Make the overall page feel less crowded */
+.container {
+    max-width: 1180px;
+    gap: 48px;
+}
+
+/* Softer left sidebar */
+.left-column {
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgba(14, 116, 144, 0.14);
+}
+
+.profile-section h2 {
+    margin-top: 22px;
+}
+
 .profile-tagline {
     color: var(--accent);
     font-weight: 600;
+    line-height: 1.45;
 }
 
+/* Cleaner section layout */
+.section-block {
+    border-left: none !important;
+    border-bottom: 1px solid var(--border);
+    padding: 34px 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.section-block h2 {
+    margin-bottom: 18px;
+}
+
+/* Keep only the first section lightly highlighted */
 .hero-section {
-    border-left: 5px solid var(--accent);
+    padding: 36px 0;
 }
 
 .eyebrow {
-    margin: 0 0 8px;
-    font-size: 0.85rem;
-    letter-spacing: 0.12em;
+    margin: 0 0 10px;
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--accent);
     font-weight: 700;
 }
 
-/* Section cards */
-.section-block {
-    border-left: 4px solid rgba(14, 116, 144, 0.28);
-}
-
+/* Less heavy callout */
 .callout-box {
+    margin-top: 22px;
+    padding: 14px 18px;
     border-left: 4px solid var(--accent);
+    background: var(--bg-callout);
+    border-radius: 8px;
 }
 
-/* Snapshot cards */
-.snapshot-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 14px;
-    margin-top: 12px;
-}
-
-.snapshot-card {
-    padding: 16px;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--bg-surface);
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
-}
-
-.snapshot-number {
-    display: block;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--text-heading);
-}
-
-.snapshot-label {
-    display: block;
-    margin-top: 4px;
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-}
-
-/* Focus tags */
+/* Focus tags: smaller and calmer */
 .tag-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding: 0;
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .tag-list li {
     list-style: none;
-    padding: 7px 13px;
+    padding: 6px 12px;
     border: 1px solid var(--border);
     border-radius: 999px;
     background: var(--bg-callout);
     color: var(--text-heading);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 600;
 }
 
-/* Project and experience cards */
+/* Project blocks: more like original author's style, less card-heavy */
 .experience,
 .timeline-item,
 .toolkit-card {
-    padding: 18px 20px;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--bg-surface);
-    margin-bottom: 18px;
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 28px;
 }
 
 .experience h3,
 .timeline-item h3,
 .toolkit-card h3 {
-    margin-top: 0;
+    margin-bottom: 6px;
 }
 
-/* Toolkit */
+/* Toolkit: simpler spacing */
 .toolkit-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    gap: 28px;
 }
 
-/* Make profile photo slightly cleaner */
-.profile-photo {
-    border: 4px solid rgba(14, 116, 144, 0.18);
+/* Better paragraph breathing */
+.text-justify {
+    line-height: 1.75;
 }
 
-/* Responsive */
+/* Mobile */
 @media (max-width: 900px) {
-    .snapshot-grid,
-    .toolkit-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .container {
+        gap: 24px;
     }
-}
 
-@media (max-width: 640px) {
-    .snapshot-grid,
     .toolkit-grid {
         grid-template-columns: 1fr;
     }
