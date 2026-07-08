@@ -1,149 +1,473 @@
-/* =========================================================
-   Yuliang Wang Custom Style Overrides
-   Maritime · Data · Operations
-   ========================================================= */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yuliang Wang — MSc Maritime Studies student at Nanyang Technological University, focused on maritime operations, shipping data analytics, port and supply chain research.">
+    <meta name="author" content="Yuliang Wang">
+    <meta name="keywords" content="Yuliang Wang, Maritime Studies, Shipping Data Analytics, Port Operations, Supply Chain, Transportation, Maritime Safety, Nanyang Technological University">
+    
+    <title>Yuliang Wang — Personal Homepage</title>
 
-:root,
-[data-theme="light"] {
-    --bg-base: #F4F8FA;
-    --bg-surface: #FFFFFF;
-    --bg-sidebar: #EAF3F6;
-    --bg-callout: #E6F0F3;
-    --text-primary: #0F172A;
-    --text-body: #334155;
-    --text-secondary: #475569;
-    --text-heading: #0B2545;
-    --link: #0E7490;
-    --link-hover: #0369A1;
-    --accent: #0E7490;
-    --accent-border: #0E7490;
-    --border: #D6E4E8;
-}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yuliang Wang">
+    <meta property="og:title" content="Yuliang Wang — Personal Homepage">
+    <meta property="og:description" content="MSc Maritime Studies student focused on maritime operations, shipping data analytics, port and supply chain research.">
+    <meta property="og:url" content="https://love-ovo.github.io/">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/194566439?v=4">
 
-/* Temporarily remove copied background image dependency */
-body::before {
-    background-image: none !important;
-}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yuliang Wang — Personal Homepage">
+    <meta name="twitter:description" content="Maritime Studies · Shipping Data Analytics · Port & Supply Chain">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/194566439?v=4">
 
-/* Overall tone */
-.profile-tagline {
-    color: var(--accent);
-    font-weight: 600;
-}
+    <link rel="canonical" href="https://love-ovo.github.io/">
 
-.hero-section {
-    border-left: 5px solid var(--accent);
-}
+    <script>
+        (function () {
+            var t = localStorage.getItem('theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
 
-.eyebrow {
-    margin: 0 0 8px;
-    font-size: 0.85rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--accent);
-    font-weight: 700;
-}
+    <link rel="stylesheet" href="style.css">
 
-/* Section cards */
-.section-block {
-    border-left: 4px solid rgba(14, 116, 144, 0.28);
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700&display=swap" 
+        rel="stylesheet"
+    >
 
-.callout-box {
-    border-left: 4px solid var(--accent);
-}
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    >
+</head>
 
-/* Snapshot cards */
-.snapshot-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 14px;
-    margin-top: 12px;
-}
+<body>
 
-.snapshot-card {
-    padding: 16px;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--bg-surface);
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
-}
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="index.html">Yuliang Wang</a>
+            </h1>
 
-.snapshot-number {
-    display: block;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--text-heading);
-}
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="cv&ps.html">CV & Documents</a></li>
+                    <li>
+                        <button 
+                            type="button" 
+                            id="theme-toggle" 
+                            class="theme-toggle" 
+                            aria-label="Toggle dark mode" 
+                            title="Dark mode"
+                        >
+                            <i class="fas fa-moon" aria-hidden="true"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-.snapshot-label {
-    display: block;
-    margin-top: 4px;
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-}
 
-/* Focus tags */
-.tag-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 0;
-    margin-top: 12px;
-}
+    <!-- Main Layout -->
+    <div class="container">
 
-.tag-list li {
-    list-style: none;
-    padding: 7px 13px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: var(--bg-callout);
-    color: var(--text-heading);
-    font-size: 0.95rem;
-    font-weight: 600;
-}
+        <!-- Left Sidebar -->
+        <aside class="left-column">
+            <div class="profile-section">
+                <img 
+                    src="https://avatars.githubusercontent.com/u/194566439?v=4" 
+                    alt="Yuliang Wang profile photo" 
+                    class="profile-photo"
+                >
 
-/* Project and experience cards */
-.experience,
-.timeline-item,
-.toolkit-card {
-    padding: 18px 20px;
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--bg-surface);
-    margin-bottom: 18px;
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
-}
+                <h2>Yuliang Wang</h2>
 
-.experience h3,
-.timeline-item h3,
-.toolkit-card h3 {
-    margin-top: 0;
-}
+                <p class="profile-tagline">
+                    Maritime Studies · Shipping Data Analytics · Port & Supply Chain
+                </p>
+            </div>
 
-/* Toolkit */
-.toolkit-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
-}
+            <nav class="contact-info">
+                <ul>
+                    <li class="contact-location">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        Singapore
+                    </li>
 
-/* Make profile photo slightly cleaner */
-.profile-photo {
-    border: 4px solid rgba(14, 116, 144, 0.18);
-}
+                    <li>
+                        <a href="mailto:yuliangwang629@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span class="contact-label">Email</span>
+                        </a>
+                    </li>
 
-/* Responsive */
-@media (max-width: 900px) {
-    .snapshot-grid,
-    .toolkit-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
+                    <li>
+                        <a 
+                            href="https://www.linkedin.com/in/yuliang-wang-b16153350" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="contact-label">LinkedIn</span>
+                        </a>
+                    </li>
 
-@media (max-width: 640px) {
-    .snapshot-grid,
-    .toolkit-grid {
-        grid-template-columns: 1fr;
-    }
-}
+                    <li>
+                        <a 
+                            href="https://github.com/love-ovo" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            aria-label="GitHub"
+                        >
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="contact-label">GitHub</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                            href="https://orcid.org/0009-0007-7998-3853" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            aria-label="ORCID"
+                        >
+                            <i class="fas fa-id-badge" aria-hidden="true"></i>
+                            <span class="contact-label">ORCID</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+
+        <!-- Right Content -->
+        <main class="right-column">
+
+            <!-- About -->
+            <section class="section-block hero-section" id="about-me">
+                <p class="eyebrow">Maritime · Data · Operations</p>
+
+                <h2>About Me</h2>
+
+                <p class="text-justify">
+                    Hi, I'm <strong>Yuliang Wang</strong>, a Master's student in Maritime Studies at 
+                    <strong>Nanyang Technological University</strong>. My background combines maritime operations, 
+                    freight forwarding, shipping data analysis, logistics, and supply chain research.
+                </p>
+
+                <p class="text-justify">
+                    I am interested in using data-driven methods to support more efficient, sustainable, 
+                    and resilient maritime and transportation systems. My current focus includes port operations, 
+                    shipping logistics, maritime safety, supply chain optimization, and practical analytics for 
+                    decision-making.
+                </p>
+
+                <div class="callout-box">
+                    <strong>Current Focus:</strong> Maritime data analytics, port operations, shipping logistics, 
+                    maritime safety, and supply chain research.
+                </div>
+            </section>
+
+
+            <!-- Quick Snapshot -->
+            <section class="section-block" id="snapshot">
+                <h2>Snapshot</h2>
+
+                <div class="snapshot-grid">
+                    <div class="snapshot-card">
+                        <span class="snapshot-number">MSc</span>
+                        <span class="snapshot-label">Maritime Studies</span>
+                    </div>
+
+                    <div class="snapshot-card">
+                        <span class="snapshot-number">NTU</span>
+                        <span class="snapshot-label">Nanyang Technological University</span>
+                    </div>
+
+                    <div class="snapshot-card">
+                        <span class="snapshot-number">Data</span>
+                        <span class="snapshot-label">Python · MATLAB · SPSS · GIS</span>
+                    </div>
+
+                    <div class="snapshot-card">
+                        <span class="snapshot-number">Focus</span>
+                        <span class="snapshot-label">Shipping · Port · Supply Chain</span>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Focus Areas -->
+            <section class="section-block" id="focus-areas">
+                <h2>Focus Areas</h2>
+
+                <ul class="tag-list">
+                    <li>Maritime Studies</li>
+                    <li>Shipping Data Analytics</li>
+                    <li>Port Operations</li>
+                    <li>Supply Chain Research</li>
+                    <li>Transportation</li>
+                    <li>Maritime Safety</li>
+                    <li>Freight Forwarding</li>
+                    <li>Logistics Operations</li>
+                    <li>GIS</li>
+                    <li>Python</li>
+                    <li>MATLAB</li>
+                    <li>SPSS</li>
+                    <li>Microsoft Office</li>
+                </ul>
+            </section>
+
+
+            <!-- Projects & Research -->
+            <section class="section-block" id="projects-research">
+                <h2>Projects & Research</h2>
+
+                <div class="experience">
+                    <h3>Port Cargo Throughput Forecasting</h3>
+
+                    <p class="meta-line">
+                        <em>GM-Markov Model · CPSO Optimization · Port Data Analysis</em>
+                    </p>
+
+                    <p class="text-justify">
+                        Conducted research on port cargo throughput forecasting using grey prediction models, 
+                        Markov chains, and optimization algorithms. The project explored how quantitative models 
+                        can support port planning and maritime logistics decision-making.
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h3>Maritime Operations and Supply Chain Research</h3>
+
+                    <p class="meta-line">
+                        <em>Shipping · Logistics · Freight Forwarding · Supply Chain</em>
+                    </p>
+
+                    <p class="text-justify">
+                        Explored maritime logistics and supply chain operations through academic research and 
+                        practical experience, with a focus on improving operational efficiency, service reliability, 
+                        and data-informed decision-making.
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h3>Shipping Data Analysis</h3>
+
+                    <p class="meta-line">
+                        <em>Python · MATLAB · SPSS · GIS · Microsoft Office</em>
+                    </p>
+
+                    <p class="text-justify">
+                        Applied analytical tools to organize, process, and interpret maritime and logistics-related 
+                        data, translating complex information into clearer insights for research and operational 
+                        improvement.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- Experience -->
+            <section class="section-block" id="experience">
+                <h2>Experience</h2>
+
+                <div class="timeline-item">
+                    <h3>Maritime and Logistics Background</h3>
+
+                    <p class="text-justify">
+                        I have experience in maritime operations, freight forwarding, shipping data analysis, and 
+                        supply chain-related research. My work combines practical logistics understanding with 
+                        analytical tools and a strong interest in technology-enabled maritime systems.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Project Coordination and Cross-Functional Communication</h3>
+
+                    <p class="text-justify">
+                        Beyond technical skills, I have experience in teamwork, project coordination, event 
+                        organization, and cross-group communication. I enjoy working in international and 
+                        interdisciplinary environments where operational details and strategic thinking both matter.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Data-Driven Research Mindset</h3>
+
+                    <p class="text-justify">
+                        I am especially interested in connecting practical maritime questions with structured 
+                        analysis, clear visualization, and evidence-based recommendations.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- Publications -->
+            <section class="section-block" id="publications">
+                <h2>Selected Publications</h2>
+
+                <ol>
+                    <li>
+                        <strong>Wang, Y.</strong> Prediction of Shenzhen Port cargo throughput based on the nonlinear optimized GM-Markov model.
+                        <em>China Water Transport</em>, 25(3), 15-17.
+                    </li>
+
+                    <li>
+                        <strong>Wang, Y.</strong> Research on inland river crew team building under the new development pattern: 
+                        Analysis based on Porter's five forces model.
+                        <em>Pearl River Water Transport</em>, 2024(10), 101-103.
+                    </li>
+
+                    <li>
+                        <strong>Wang, Y.</strong> Improved GM-Markov model based on CPSO algorithm for port cargo throughput forecasting.
+                        <em>Journal of Chongqing Jiaotong University (Natural Sciences)</em>.
+                    </li>
+
+                    <li>
+                        <strong>Wang, Y.</strong> Large-Scale Sampling Model and Optimization Algorithm Based on Dynamic Programming and Monte Carlo Simulation.
+                        <em>The 5th International Conference on Multi-modal Information Analytics</em>.
+                    </li>
+                </ol>
+            </section>
+
+
+            <!-- Tools -->
+            <section class="section-block" id="toolkit">
+                <h2>Toolkit</h2>
+
+                <div class="toolkit-grid">
+                    <div class="toolkit-card">
+                        <h3>Analytics</h3>
+                        <p>Python, MATLAB, SPSS, Excel, data cleaning, modeling, and statistical analysis.</p>
+                    </div>
+
+                    <div class="toolkit-card">
+                        <h3>Maritime & Logistics</h3>
+                        <p>Shipping operations, freight forwarding, port operations, supply chain processes, and maritime safety.</p>
+                    </div>
+
+                    <div class="toolkit-card">
+                        <h3>Communication</h3>
+                        <p>Research writing, presentations, stakeholder communication, teamwork, and project coordination.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Contact -->
+            <section class="section-block" id="contact">
+                <h2>Contact</h2>
+
+                <p class="text-justify">
+                    I am open to academic collaboration, research discussion, and maritime or logistics-related opportunities.
+                    You can reach me at 
+                    <a href="mailto:yuliangwang629@gmail.com">yuliangwang629@gmail.com</a>.
+                </p>
+            </section>
+
+        </main>
+    </div>
+
+
+    <!-- Floating Section Navigation -->
+    <nav class="section-jumper" aria-label="Page sections">
+        <button 
+            type="button" 
+            class="section-jumper__handle" 
+            aria-label="Open page navigation" 
+            aria-expanded="false"
+        >
+            <i class="fas fa-grip-lines-vertical" aria-hidden="true"></i>
+        </button>
+
+        <div class="section-jumper__panel">
+            <button 
+                type="button" 
+                class="section-jumper__btn section-jumper__btn--edge" 
+                data-action="top" 
+                aria-label="Back to top"
+            >
+                <i class="fas fa-angles-up" aria-hidden="true"></i>
+            </button>
+
+            <span class="section-jumper__divider" aria-hidden="true"></span>
+
+            <button 
+                type="button" 
+                class="section-jumper__btn" 
+                data-dir="prev" 
+                aria-label="Previous section"
+            >
+                <i class="fas fa-chevron-up" aria-hidden="true"></i>
+            </button>
+
+            <div class="section-jumper__menu">
+                <button 
+                    type="button" 
+                    class="section-jumper__toggle" 
+                    aria-expanded="false" 
+                    aria-haspopup="true" 
+                    aria-controls="section-jumper-list" 
+                    aria-label="Jump to section" 
+                    title="Sections"
+                >
+                    <i class="fas fa-list-ul" aria-hidden="true"></i>
+                </button>
+
+                <ul class="section-jumper__dropdown" id="section-jumper-list" hidden>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#snapshot">Snapshot</a></li>
+                    <li><a href="#focus-areas">Focus Areas</a></li>
+                    <li><a href="#projects-research">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#toolkit">Toolkit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <button 
+                type="button" 
+                class="section-jumper__btn" 
+                data-dir="next" 
+                aria-label="Next section"
+            >
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+
+            <span class="section-jumper__divider" aria-hidden="true"></span>
+
+            <button 
+                type="button" 
+                class="section-jumper__btn section-jumper__btn--edge" 
+                data-action="bottom" 
+                aria-label="Back to bottom"
+            >
+                <i class="fas fa-angles-down" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <blockquote class="site-quote">
+            <p class="site-quote__text">
+                Turning maritime complexity into clearer, data-informed decisions.
+            </p>
+            <footer class="site-quote__attrib">Yuliang Wang</footer>
+        </blockquote>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
