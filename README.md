@@ -4,6 +4,10 @@
 
 ### Maritime Studies · Shipping Data Analytics · Port & Supply Chain
 
+Focus: Maritime Analytics
+Tools: Python · MATLAB · SPSS · GIS
+Base: NTU Singapore
+
 <p>
   <a href="https://love-ovo.github.io/">
     <img src="https://img.shields.io/badge/Website-love--ovo.github.io-0E7490?style=for-the-badge&logo=githubpages&logoColor=white" />
@@ -20,7 +24,7 @@
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=720&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains;Building+a+clean+academic+portfolio+with+GitHub+Pages" />
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=720&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains" />
 </p>
 
 </div>
@@ -37,8 +41,46 @@ Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyan
 My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**.
 
 This website is designed as a clean personal portfolio to present my academic background, research interests, publications, technical skills, and professional profile.
+---
+
+## 🛰️ Navigation System
+
+| Destination | Description | Link |
+|---|---|---|
+| 🌐 Personal Website | Full academic and professional portfolio | [Open Website](https://love-ovo.github.io/) |
+| 📄 CV & Documents | CV and supporting documents page | [Open CV Page](https://love-ovo.github.io/cv&ps.html) |
+| 🚢 Maritime Projects | Research and project highlights | [Projects Section](https://love-ovo.github.io/#projects) |
+| 📚 Publications | Selected publications and research output | [Publications](https://love-ovo.github.io/#publications) |
+| 📬 Contact | Email, LinkedIn, GitHub, and ORCID | [Contact](https://love-ovo.github.io/#contact) |
 
 ---
+
+## 🧭 Maritime Research Compass
+
+```mermaid
+flowchart TD
+    A[Maritime Safety] --> E[Yuliang Wang<br/>Maritime Data Portfolio]
+    B[Port Operations] --> E
+    C[Shipping Data Analytics] --> E
+    D[Supply Chain Research] --> E
+
+    E --> F[Data-informed Decisions]
+    E --> G[Operational Efficiency]
+    E --> H[Sustainable Maritime Systems]
+```
+
+---
+
+## 📊 Maritime Data Pipeline
+
+```mermaid
+flowchart LR
+    A[Maritime Operations] --> B[Data Collection]
+    B --> C[Cleaning & Processing]
+    C --> D[Forecasting & Modeling]
+    D --> E[Operational Insights]
+    E --> F[Port & Supply Chain Decisions]
+```
 
 ## 🧩 Focus Areas
 
