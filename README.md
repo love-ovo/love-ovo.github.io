@@ -4,9 +4,6 @@
 
 ### Maritime Studies · Shipping Data Analytics · Port & Supply Chain
 
-Focus: Maritime Analytics
-Tools: Python · MATLAB · SPSS · GIS
-Base: NTU Singapore
 
 <p>
   <a href="https://love-ovo.github.io/">
