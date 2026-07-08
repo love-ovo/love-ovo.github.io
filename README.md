@@ -5,7 +5,7 @@
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue?logo=github)
 
 Hi, I'm **Yuliang Wang**, and I created this clean, modern, and responsive academic homepage to present my resume, research achievements, and personal portfolio in a clear and efficient way.
-📎 **[View Live Demo](https://qianyhp.github.io/)**  
+📎 **[View Live Demo](https://qianyhp.github.io/](https://love-ovo.github.io/)**  
 
 ## ✨ Features
 
