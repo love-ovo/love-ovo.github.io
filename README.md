@@ -192,9 +192,6 @@ The visual identity of this website is shaped around:
 - **Readable sections with strong spacing**
 - **A balance between research profile and operational portfolio**
 
-The goal is to communicate a clear professional direction:
-
-> **Turning maritime complexity into clearer, data-informed decisions.**
 
 ---
 
