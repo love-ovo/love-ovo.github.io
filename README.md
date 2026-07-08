@@ -53,34 +53,66 @@ This website is designed as a clean personal portfolio to present my academic ba
 | 📚 Publications | Selected publications and research output | [Publications](https://love-ovo.github.io/#publications) |
 | 📬 Contact | Email, LinkedIn, GitHub, and ORCID | [Contact](https://love-ovo.github.io/#contact) |
 
+--
+
+## 🧭 Maritime Research Map
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🚢 Maritime Operations</h3>
+      <p>
+        Understanding shipping processes, freight forwarding, port operations, and maritime safety from an operational perspective.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>📊 Shipping Data Analytics</h3>
+      <p>
+        Applying Python, MATLAB, SPSS, GIS, and forecasting methods to transform maritime and logistics data into useful insights.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🏗️ Port & Supply Chain</h3>
+      <p>
+        Exploring cargo throughput, logistics networks, port planning, and supply chain efficiency in maritime transportation systems.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🌱 Sustainable Decisions</h3>
+      <p>
+        Connecting maritime knowledge with data-informed decision-making for more efficient, resilient, and sustainable operations.
+      </p>
+    </td>
+  </tr>
+</table>
+
 ---
 
-## 🧭 Maritime Research Compass
+## 📊 Data-to-Decision Workflow
 
-```mermaid
-flowchart TD
-    A[Maritime Safety] --> E[Yuliang Wang<br/>Maritime Data Portfolio]
-    B[Port Operations] --> E
-    C[Shipping Data Analytics] --> E
-    D[Supply Chain Research] --> E
-
-    E --> F[Data-informed Decisions]
-    E --> G[Operational Efficiency]
-    E --> H[Sustainable Maritime Systems]
-```
+| Stage | What It Means |
+|---|---|
+| **01 · Maritime Context** | Identify operational questions from shipping, ports, logistics, or safety scenarios |
+| **02 · Data Collection** | Gather maritime, port, logistics, or transportation-related data |
+| **03 · Processing & Analysis** | Clean, structure, and analyze data using tools such as Python, MATLAB, SPSS, and GIS |
+| **04 · Modeling & Forecasting** | Apply forecasting, optimization, or statistical methods to support interpretation |
+| **05 · Operational Insight** | Translate analysis into clearer recommendations for port, shipping, and supply chain decisions |
 
 ---
 
-## 📊 Maritime Data Pipeline
+## ⚓ Portfolio Identity
 
-```mermaid
-flowchart LR
-    A[Maritime Operations] --> B[Data Collection]
-    B --> C[Cleaning & Processing]
-    C --> D[Forecasting & Modeling]
-    D --> E[Operational Insights]
-    E --> F[Port & Supply Chain Decisions]
-```
+> **Maritime knowledge + data analytics + operational insight**
+
+<p>
+  <img src="https://img.shields.io/badge/Maritime%20Studies-0B2545?style=flat-square" />
+  <img src="https://img.shields.io/badge/Shipping%20Data%20Analytics-0E7490?style=flat-square" />
+  <img src="https://img.shields.io/badge/Port%20Operations-0369A1?style=flat-square" />
+  <img src="https://img.shields.io/badge/Supply%20Chain%20Research-155E75?style=flat-square" />
+  <img src="https://img.shields.io/badge/Maritime%20Safety-164E63?style=flat-square" />
+</p>
 
 ## 🧩 Focus Areas
 
