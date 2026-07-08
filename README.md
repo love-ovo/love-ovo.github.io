@@ -34,7 +34,7 @@ This repository hosts my personal academic and professional homepage:
 ### 🔗 [Visit my website → love-ovo.github.io](https://love-ovo.github.io/)
 
 Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyang Technological University**.  
-My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**.
+My background combines **Maritime Operations**, **Freight Forwarding**, **Shipping Data Analysis**, **Logistics**, and **Supply Chain Research**.
 
 This website is designed as a clean personal portfolio to present my academic background, research interests, publications, technical skills, and professional profile.
 
