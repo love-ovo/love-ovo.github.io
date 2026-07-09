@@ -114,7 +114,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 <table>
   <tr>
-    <td><strong>🚢 Domain Knowledge</strong></td>
+    <td width="200"><strong>🚢&nbsp;Domain&nbsp;Knowledge</strong></td>
     <td>Maritime Studies · Shipping Operations · Freight Forwarding · Maritime Safety</td>
   </tr>
   <tr>
