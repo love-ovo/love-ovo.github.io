@@ -20,20 +20,24 @@
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=760&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains;Connecting+maritime+knowledge+with+operational+insight" />
+<img id="typing-text" src="https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=760&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains;Connecting+maritime+knowledge+with+operational+insight" />
 </p>
 
 </div>
 
 ---
 
-## 🌊 About This Portfolio
+## 🌊 <span data-i18n="about_title">About This Portfolio</span>
 
+<p data-i18n="about_intro">
 This repository hosts my personal academic and professional homepage:
+</p>
 
 ### 🔗 [Visit my website → love-ovo.github.io](https://love-ovo.github.io/)
 
-Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyang Technological University**.
+<p data-i18n="about_bio">
+Hi, I'm <strong>Yuliang Wang</strong>, a Master's student in <strong>Maritime Studies</strong> at <strong>Nanyang Technological University</strong>.
+</p>
 
 My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**. This portfolio presents my academic background, research interests, selected publications, technical skills, and professional direction.
 
@@ -41,7 +45,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 🛰️ Portfolio Mission Control
+## 🛰️ <span data-i18n="mission_title">Portfolio Mission Control</span>
 
 | Destination | Description | Link |
 |---|---|---|
@@ -53,8 +57,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 🧭 Research Atlas
-
+## 🧭 <span data-i18n="atlas_title">Research Atlas</span>
 <table>
   <tr>
     <td width="50%">
@@ -88,7 +91,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 📊 Data-to-Decision Workflow
+## 📊 <span data-i18n="workflow_title">Data-to-Decision Workflow</span>
 
 | Stage | Focus | Output |
 |---|---|---|
@@ -100,7 +103,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 🧩 Core Focus
+## 🧩 <span data-i18n="focus_title">Core Focus</span>
 
 <p>
   <img src="https://img.shields.io/badge/Maritime%20Studies-0B2545?style=flat-square" />
@@ -133,7 +136,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 📚 Selected Publications
+## 📚 <span data-i18n="publications_title">Selected Publications</span>
 
 | Type | Publication |
 |---|---|
@@ -144,7 +147,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ <span data-i18n="tech_title">Tech Stack</span>
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -163,7 +166,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 
 ---
 
-## 🧱 Website Architecture
+## 🧱 <span data-i18n="architecture_title">Website Architecture</span>
 
 <details>
 <summary><strong>Click to view repository structure</strong></summary>
@@ -182,7 +185,7 @@ love-ovo.github.io/
 
 ---
 
-## 🎨 Design Direction
+## 🎨 <span data-i18n="design_title">Design Direction</span>
 
 The visual identity of this website is shaped around:
 
@@ -195,8 +198,7 @@ The visual identity of this website is shaped around:
 
 ---
 
-## 📬 Contact
-
+## 📬 <span data-i18n="contact_title">Contact</span>
 <p>
   <a href="mailto:yuliangwang629@gmail.com">
     <img src="https://img.shields.io/badge/Email-yuliangwang629%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
@@ -219,3 +221,78 @@ The visual identity of this website is shaped around:
 ### ⚓ Maritime knowledge · Data analytics · Operational insight
 
 </div>
+<script>
+const translations = {
+  en: {
+    hero_name: "Yuliang Wang",
+    hero_subtitle: "Maritime Studies · Shipping Data Analytics · Port & Supply Chain",
+
+    about_title: "About This Portfolio",
+    about_intro: "This repository hosts my personal academic and professional homepage:",
+    about_bio: "Hi, I'm <strong>Yuliang Wang</strong>, a Master's student in <strong>Maritime Studies</strong> at <strong>Nanyang Technological University</strong>.",
+    about_background: "My background combines <strong>maritime operations</strong>, <strong>freight forwarding</strong>, <strong>shipping data analysis</strong>, <strong>logistics</strong>, and <strong>supply chain research</strong>. This portfolio presents my academic background, research interests, selected publications, technical skills, and professional direction.",
+    motto: "Maritime knowledge + data analytics + operational insight",
+
+    mission_title: "Portfolio Mission Control",
+    atlas_title: "Research Atlas",
+    workflow_title: "Data-to-Decision Workflow",
+    focus_title: "Core Focus",
+    publications_title: "Selected Publications",
+    tech_title: "Tech Stack",
+    architecture_title: "Website Architecture",
+    design_title: "Design Direction",
+    contact_title: "Contact",
+
+    typing_src: "https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=760&lines=Turning+maritime+complexity+into+data-informed+decisions;Exploring+shipping+data%2C+port+operations%2C+and+supply+chains;Connecting+maritime+knowledge+with+operational+insight"
+  },
+
+  zh: {
+    hero_name: "王俞亮",
+    hero_subtitle: "海事研究 · 航运数据分析 · 港口与供应链",
+
+    about_title: "关于这个作品集",
+    about_intro: "这个仓库用于展示我的个人学术与职业主页：",
+    about_bio: "你好，我是 <strong>王俞亮</strong>，目前是 <strong>南洋理工大学 Maritime Studies</strong> 硕士学生。",
+    about_background: "我的背景结合了 <strong>海事运营</strong>、<strong>货运代理</strong>、<strong>航运数据分析</strong>、<strong>物流</strong> 和 <strong>供应链研究</strong>。这个作品集展示了我的教育背景、研究兴趣、代表性发表、技术能力和职业方向。",
+    motto: "海事知识 + 数据分析 + 运营洞察",
+
+    mission_title: "作品集导航",
+    atlas_title: "研究方向地图",
+    workflow_title: "从数据到决策的流程",
+    focus_title: "核心方向",
+    publications_title: "代表性发表",
+    tech_title: "技术栈",
+    architecture_title: "网站结构",
+    design_title: "设计方向",
+    contact_title: "联系方式",
+
+    typing_src: "https://readme-typing-svg.demolab.com?font=Source+Sans+3&size=22&duration=3500&pause=900&color=0E7490&center=true&vCenter=true&width=760&lines=%E5%B0%86%E6%B5%B7%E4%BA%8B%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E8%BD%AC%E5%8C%96%E4%B8%BA%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%86%B3%E7%AD%96;%E6%8E%A2%E7%B4%A2%E8%88%AA%E8%BF%90%E6%95%B0%E6%8D%AE%2C+%E6%B8%AF%E5%8F%A3%E8%BF%90%E8%90%A5%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE;%E8%BF%9E%E6%8E%A5%E6%B5%B7%E4%BA%8B%E7%9F%A5%E8%AF%86%E4%B8%8E%E8%BF%90%E8%90%A5%E6%B4%9E%E5%AF%9F"
+  }
+};
+
+function setLanguage(lang) {
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+    if (translations[lang][key]) {
+      element.innerHTML = translations[lang][key];
+    }
+  });
+
+  const typing = document.getElementById("typing-text");
+  if (typing && translations[lang].typing_src) {
+    typing.src = translations[lang].typing_src;
+  }
+
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+
+  document.getElementById("btn-en").classList.toggle("active", lang === "en");
+  document.getElementById("btn-zh").classList.toggle("active", lang === "zh");
+
+  localStorage.setItem("preferredLanguage", lang);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
+  setLanguage(savedLanguage);
+});
+</script>
