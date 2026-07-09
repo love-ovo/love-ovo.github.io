@@ -1,21 +1,11 @@
-<div align="center">
-
-### ⚓ Maritime knowledge · Data analytics · Operational insight
-
-</div>
-
----
-
 <p align="right">
-  <a href="#English-version">
+  <a href="./README.md">
     <img src="https://img.shields.io/badge/English-Version-0E7490?style=flat-square" />
   </a>
-  <a href="#Chinese-version">
-    <img src="https://img.shields.io/badge/中文版本-EA4335?style=flat-square" />
+  <a href="./README.CN.md">
+    <img src="https://img.shields.io/badge/Chinese-Version-EA4335?style=flat-square" />
   </a>
 </p>
-
-<a id="中文版本"></a>
 
 <div align="center">
 
@@ -239,7 +229,7 @@ love-ovo.github.io/
 </div>
 
 <p align="right">
-  <a href="#english-version">
+  <a href="./README.md">
     <img src="https://img.shields.io/badge/Back%20to-English-0E7490?style=flat-square" />
   </a>
 </p>
