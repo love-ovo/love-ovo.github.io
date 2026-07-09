@@ -7,6 +7,8 @@
   </a>
 </p>
 
+<div align="center">
+
 # 🧭 Yuliang Wang
 
 ### Maritime Studies · Shipping Data Analytics · Port & Supply Chain
