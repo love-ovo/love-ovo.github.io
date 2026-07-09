@@ -1,8 +1,8 @@
 <p align="right">
-  <a href="#english-version">
+  <a href="#English-version">
     <img src="https://img.shields.io/badge/English-Version-0E7490?style=flat-square" />
   </a>
-  <a href="#中文版本">
+  <a href="#Chinese-version">
     <img src="https://img.shields.io/badge/中文版本-EA4335?style=flat-square" />
   </a>
 </p>
