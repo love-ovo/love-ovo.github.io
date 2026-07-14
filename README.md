@@ -46,7 +46,7 @@ Hi, I'm **Yuliang Wang**, a Master's student in **Maritime Studies** at **Nanyan
 
 My background combines **maritime operations**, **freight forwarding**, **shipping data analysis**, **logistics**, and **supply chain research**. This portfolio presents my academic background, research interests, selected publications, technical skills, and professional direction.
 
-> **Maritime knowledge + data analytics + operational insight**
+> **Maritime Knowledge + Data Analytics + Operational Insight**
 
 ---
 
