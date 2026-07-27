@@ -55,7 +55,7 @@ My background combines **maritime operations**, **freight forwarding**, **shippi
 | Destination | Description | Link |
 |---|---|---|
 | 🌐 **Personal Website** | Full academic and professional portfolio | [Open Website](https://love-ovo.github.io/) |
-| 📄 **CV & Documents** | CV and supporting documents page | [Open CV Page](https://love-ovo.github.io/cv%26ps.html) |
+| 📄 **CV & Personal Statement** | CV and supporting documents page | [Open CV and PS Page](https://love-ovo.github.io/cv%26ps.html) |
 | 🚢 **Projects & Research** | Maritime, logistics, and data-related research highlights | [View Projects](https://love-ovo.github.io/#projects) |
 | 📚 **Publications** | Selected academic publications and research outputs | [View Publications](https://love-ovo.github.io/#publications) |
 | 📬 **Contact** | Email, LinkedIn, GitHub, and ORCID | [Contact Me](https://love-ovo.github.io/#contact) |
