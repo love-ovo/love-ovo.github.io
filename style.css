@@ -1378,7 +1378,6 @@ h3 {
    Maritime Data Dashboard · Academic Portfolio
    ========================================================= */
 
-:root,
 [data-theme="light"] {
     --bg-base: #F3F8FA;
     --bg-surface: #FFFFFF;
@@ -1747,6 +1746,12 @@ body::before {
     box-shadow: 0 10px 24px rgba(30, 58, 95, 0.18);
 }
 
+.featured-project__icon i {
+    display: block;
+    margin: 0;
+    line-height: 1;
+}
+
 .project-tags {
     margin: 14px 0 20px;
     color: var(--accent);
@@ -2045,6 +2050,21 @@ body.has-lightbox {
 [data-theme="dark"] .compass-card,
 [data-theme="dark"] .compass-side {
     background: rgba(38, 35, 32, 0.85);
+}
+
+[data-theme="dark"] .left-column {
+    background: linear-gradient(180deg, rgba(32, 30, 28, 0.98), rgba(38, 35, 32, 0.94));
+}
+
+[data-theme="dark"] .project-summary,
+[data-theme="dark"] .project-carousel-arrow,
+[data-theme="dark"] .contact-buttons a {
+    background: var(--bg-callout);
+}
+
+[data-theme="dark"] .project-figure,
+[data-theme="dark"] .project-figure span {
+    background: var(--bg-surface);
 }
 
 /* Responsive */
