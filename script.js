@@ -343,6 +343,107 @@
     });
   }
 
+  function initProjectCarousels() {
+    document.querySelectorAll('.project-gallery').forEach(function (gallery, galleryIndex) {
+      var slides = Array.prototype.slice.call(gallery.querySelectorAll('.project-figure'));
+      if (slides.length < 2) return;
+
+      gallery.setAttribute('tabindex', '0');
+      gallery.setAttribute('aria-roledescription', 'carousel');
+      gallery.setAttribute('aria-label', gallery.getAttribute('aria-label') || 'Project figures');
+
+      var controls = document.createElement('div');
+      controls.className = 'project-carousel-controls';
+      controls.innerHTML =
+        '<button class="project-carousel-arrow project-carousel-arrow--prev" type="button" aria-label="Previous figure">' +
+          '<i class="fas fa-arrow-left" aria-hidden="true"></i>' +
+        '</button>' +
+        '<div class="project-carousel-progress">' +
+          '<span class="project-carousel-count" aria-live="polite">01 / 0' + slides.length + '</span>' +
+          '<div class="project-carousel-dots" aria-label="Choose a figure"></div>' +
+        '</div>' +
+        '<button class="project-carousel-arrow project-carousel-arrow--next" type="button" aria-label="Next figure">' +
+          '<i class="fas fa-arrow-right" aria-hidden="true"></i>' +
+        '</button>';
+      gallery.insertAdjacentElement('afterend', controls);
+
+      var prev = controls.querySelector('.project-carousel-arrow--prev');
+      var next = controls.querySelector('.project-carousel-arrow--next');
+      var count = controls.querySelector('.project-carousel-count');
+      var dotsWrap = controls.querySelector('.project-carousel-dots');
+      var current = 0;
+      var wheelLocked = false;
+
+      slides.forEach(function (slide, index) {
+        slide.setAttribute('aria-label', 'Figure ' + (index + 1) + ' of ' + slides.length);
+        var dot = document.createElement('button');
+        dot.className = 'project-carousel-dot';
+        dot.type = 'button';
+        dot.setAttribute('aria-label', 'Show figure ' + (index + 1));
+        dot.addEventListener('click', function () { goTo(index); });
+        dotsWrap.appendChild(dot);
+      });
+
+      var dots = Array.prototype.slice.call(dotsWrap.children);
+
+      function updateControls(index) {
+        current = Math.max(0, Math.min(slides.length - 1, index));
+        count.textContent = String(current + 1).padStart(2, '0') + ' / ' + String(slides.length).padStart(2, '0');
+        prev.disabled = current === 0;
+        next.disabled = current === slides.length - 1;
+        dots.forEach(function (dot, dotIndex) {
+          var active = dotIndex === current;
+          dot.classList.toggle('is-active', active);
+          dot.setAttribute('aria-current', active ? 'true' : 'false');
+        });
+      }
+
+      function goTo(index) {
+        var target = Math.max(0, Math.min(slides.length - 1, index));
+        slides[target].scrollIntoView({
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+          block: 'nearest',
+          inline: 'start'
+        });
+        updateControls(target);
+      }
+
+      prev.addEventListener('click', function () { goTo(current - 1); });
+      next.addEventListener('click', function () { goTo(current + 1); });
+
+      gallery.addEventListener('scroll', function () {
+        var slideWidth = gallery.clientWidth || 1;
+        updateControls(Math.round(gallery.scrollLeft / slideWidth));
+      }, { passive: true });
+
+      gallery.addEventListener('wheel', function (event) {
+        if (Math.abs(event.deltaX) > Math.abs(event.deltaY) || wheelLocked) return;
+        var direction = event.deltaY > 0 ? 1 : -1;
+        var atStart = current === 0 && direction < 0;
+        var atEnd = current === slides.length - 1 && direction > 0;
+        if (atStart || atEnd) return;
+
+        event.preventDefault();
+        wheelLocked = true;
+        goTo(current + direction);
+        window.setTimeout(function () { wheelLocked = false; }, 480);
+      }, { passive: false });
+
+      gallery.addEventListener('keydown', function (event) {
+        if (event.key === 'ArrowLeft') {
+          event.preventDefault();
+          goTo(current - 1);
+        }
+        if (event.key === 'ArrowRight') {
+          event.preventDefault();
+          goTo(current + 1);
+        }
+      });
+
+      updateControls(0);
+    });
+  }
+
   function isMobileLayout() {
     return window.matchMedia('(max-width: 768px)').matches;
   }
@@ -410,6 +511,7 @@
     initThemeToggle();
     markActiveNav();
     initDragScroll();
+    initProjectCarousels();
     initProjectLightbox();
     initPdfViewers();
     initSectionJumper();
