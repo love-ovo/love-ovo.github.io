@@ -290,6 +290,59 @@
     });
   }
 
+  function initProjectLightbox() {
+    var triggers = document.querySelectorAll('[data-lightbox-src]');
+    if (!triggers.length) return;
+
+    var lightbox = document.createElement('div');
+    lightbox.className = 'image-lightbox';
+    lightbox.hidden = true;
+    lightbox.setAttribute('role', 'dialog');
+    lightbox.setAttribute('aria-modal', 'true');
+    lightbox.setAttribute('aria-label', 'Project figure preview');
+    lightbox.innerHTML =
+      '<button class="image-lightbox__close" type="button" aria-label="Close image preview">' +
+        '<i class="fas fa-times" aria-hidden="true"></i>' +
+      '</button>' +
+      '<img class="image-lightbox__image" alt="">';
+    document.body.appendChild(lightbox);
+
+    var image = lightbox.querySelector('.image-lightbox__image');
+    var closeButton = lightbox.querySelector('.image-lightbox__close');
+    var lastTrigger = null;
+
+    function openLightbox(trigger) {
+      lastTrigger = trigger;
+      image.src = trigger.dataset.lightboxSrc;
+      image.alt = trigger.dataset.lightboxAlt || '';
+      lightbox.hidden = false;
+      document.body.classList.add('has-lightbox');
+      closeButton.focus();
+    }
+
+    function closeLightbox() {
+      if (lightbox.hidden) return;
+      lightbox.hidden = true;
+      image.removeAttribute('src');
+      document.body.classList.remove('has-lightbox');
+      if (lastTrigger) lastTrigger.focus();
+    }
+
+    triggers.forEach(function (trigger) {
+      trigger.addEventListener('click', function () {
+        openLightbox(trigger);
+      });
+    });
+
+    closeButton.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', function (event) {
+      if (event.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeLightbox();
+    });
+  }
+
   function isMobileLayout() {
     return window.matchMedia('(max-width: 768px)').matches;
   }
@@ -357,6 +410,7 @@
     initThemeToggle();
     markActiveNav();
     initDragScroll();
+    initProjectLightbox();
     initPdfViewers();
     initSectionJumper();
   });
