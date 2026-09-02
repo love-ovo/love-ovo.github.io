@@ -1986,6 +1986,40 @@ body.has-lightbox {
     color: var(--text-heading);
 }
 
+.publication-supervisor {
+    margin: 12px 0 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.publication-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.publication-links a:hover,
+.publication-links a:focus-visible {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+}
+
 /* Timeline */
 .timeline {
     position: relative;
