@@ -2049,6 +2049,30 @@ body.has-lightbox {
     color: var(--text-heading);
 }
 
+.timeline-entry p.timeline-meta,
+.timeline-entry p.timeline-date,
+.timeline-entry p.timeline-achievement {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.timeline-meta {
+    color: var(--text-heading);
+    font-weight: 600;
+}
+
+.timeline-date {
+    margin-top: 2px !important;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.timeline-achievement {
+    margin-top: 6px !important;
+    color: var(--text-body);
+}
+
 /* Contact Buttons */
 .contact-buttons {
     display: flex;
