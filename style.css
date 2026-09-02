@@ -2073,6 +2073,23 @@ body.has-lightbox {
     color: var(--text-body);
 }
 
+.timeline-honours {
+    margin: 7px 0 0 !important;
+    color: var(--accent);
+    font-size: 1rem;
+    line-height: 1.5 !important;
+}
+
+.timeline-honours-note {
+    margin: 1px 0 0 !important;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    line-height: 1.4 !important;
+    text-transform: uppercase;
+}
+
 /* Contact Buttons */
 .contact-buttons {
     display: flex;
